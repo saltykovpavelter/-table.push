@@ -1,0 +1,3 @@
+const computerCard = computerHand[Math.floor(Math.random() * computerHand.length)];
+      table.push(computerCard);
+      computerHand.splice(computerHand.indexOf(computerCard), 1);
